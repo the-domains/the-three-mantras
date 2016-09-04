@@ -1,14 +1,26 @@
-layout_spectrum: 0.6596945892088115
-typography_spectrum: 0.28653167677111924
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.9659498
   brandStrength: 0.3091267282143235
-  lightness: 0.37809602776542306
-  saturation: 0.9084744739811867
-  rhythmicContrast: 0.6833331943489611
+  lightness: 0.378096
   brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
+    - '#AA783D'
+    - '#75532D'
+    - '#F7E7CE'
+    - '#CDB26F'
+    - '#3F2E14'
+  rhythmicContrast: 0.6833332
+typography_spectrum: 0.2865316767711192
+layout_spectrum: 1
 name: 'The three mantras '
